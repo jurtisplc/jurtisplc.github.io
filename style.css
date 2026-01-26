@@ -8,11 +8,20 @@
   overflow: hidden;
   background-color: #fffafa;
 }
+.container-info {
+  display: flex;
+  width: 100%;
+}
 .left-info {
   text-align: left;
-  margin-left: 20px;
+  margin-left: 25px;
+  width: 50%;
 }
 .right-info {
   text-align: left;
-  margin-right: 20px;
+  margin-right: 25px;
+  width: 50%;
+}
+.h1 {
+  text-align: center;
 }
