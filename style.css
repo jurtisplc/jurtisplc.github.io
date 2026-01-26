@@ -30,19 +30,34 @@
   text-align: center;
   margin-top: 20px;
 }
+
 .gallery-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.gallery-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(46, 44, 44, 0.1);
+  transition: transform 0.3s ease;
+  border: 1px solid #eee;
+}
+.gallery-img img {
   width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
 }
-.gallery-l {
-  width: 50%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-.gallery-r {
-  width: 50%;
-  padding: 10px;
-  box-sizing: border-box;
+.gallery-container h2 {
+  text-align: center;
+  margin-top: 20px;
 }
 .footer {
   text-align: left;
@@ -78,4 +93,57 @@
   background-color: #de1010;
   border-radius: 10px;
   background-image: linear-gradient(45deg, #95081d, #e50606);
+}
+
+.cert-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cert-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(46, 44, 44, 0.1);
+  transition: transform 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.cert-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.cert-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.cert-content h3 {
+  margin-top: 0;
+  color: #007bff;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.cert-content p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cert-content i {
+  color: #888;
+  width: 20px;
 }

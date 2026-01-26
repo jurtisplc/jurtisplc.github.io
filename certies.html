@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <title>Các chứng chỉ đã nhận</title>
   </head>
   <body>
     <header>
       <h1 class="h1">Các chứng chỉ đã nhận</h1>
     </header>
+
     <nav>
       <ul class="menu">
         <li><a href="info.html"> Thông tin cá nhân</a></li>
@@ -20,11 +24,80 @@
         <li><a href="strong.html"> Thế mạnh</a></li>
         <li><a href="favbook.html"> Sách yêu thích</a></li>
         <li>
-          <a href="certies.html"> <mark>Các chứng chỉ đã nhận</mark></a>
+          <a href="certies.html" class="active">
+            <mark>Các chứng chỉ đã nhận</mark></a
+          >
         </li>
         <li><a href="gallery.html"> Gallery kỉ niệm</a></li>
       </ul>
     </nav>
+
+    <div class="cert-container">
+      <div class="cert-card">
+        <div class="cert-img">
+          <img
+            src="img/ibm-intro-data-analyst.jpg"
+            alt="Chứng chỉ Data Analysts"
+          />
+        </div>
+        <div class="cert-content">
+          <h3>Data Analysts</h3>
+          <p class="issuer">
+            <i class="fa-solid fa-building-columns"></i>
+            <strong>Đơn vị cấp:</strong> Coursera
+          </p>
+          <p class="date">
+            <i class="fa-regular fa-calendar-days"></i>
+            <strong>Thời gian:</strong> 20/12/2024
+          </p>
+          <p class="cert-id">
+            <i class="fa-solid fa-id-card"></i>
+            <strong>ID:</strong> UC-123-456-789
+          </p>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img">
+          <img src="img/bang_diem_toeic.jpg" alt="Chứng chỉ Tiếng Anh" />
+        </div>
+        <div class="cert-content">
+          <h3>Chứng chỉ Tiếng Anh TOEIC 750+</h3>
+          <p class="issuer">
+            <i class="fa-solid fa-building-columns"></i>
+            <strong>Đơn vị cấp:</strong> IIG Vietnam
+          </p>
+          <p class="date">
+            <i class="fa-regular fa-calendar-days"></i>
+            <strong>Thời gian:</strong> 15/06/2025
+          </p>
+          <p class="cert-id">
+            <i class="fa-solid fa-id-card"></i> <strong>ID:</strong> VN-999-888
+          </p>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img">
+          <img src="img/largepreview.png" alt="Chứng chỉ AI Basics" />
+        </div>
+        <div class="cert-content">
+          <h3>AI for Everyone</h3>
+          <p class="issuer">
+            <i class="fa-solid fa-building-columns"></i>
+            <strong>Đơn vị cấp:</strong> Coursera
+          </p>
+          <p class="date">
+            <i class="fa-regular fa-calendar-days"></i>
+            <strong>Thời gian:</strong> 10/01/2026
+          </p>
+          <p class="cert-id">
+            <i class="fa-solid fa-id-card"></i> <strong>ID:</strong> ABC-XYZ-123
+          </p>
+        </div>
+      </div>
+    </div>
+
     <footer class="footer">
       <p>&copy; 2026 Pham Le Cong Thanh. All rights reserved.</p>
     </footer>
